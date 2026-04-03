@@ -20,7 +20,7 @@ Some model and data files are too large to be stored directly in this GitHub rep
 
 ### Google Drive Resources
 
-- **Project folder**  
+- **Data folder**  
   [Google Drive Folder](https://drive.google.com/drive/folders/1IGBH0VLOBSJkwweHLeGk_NS0ohnATqsw?usp=drive_link)
 
 - **Adapter file**  
@@ -33,9 +33,7 @@ Please download the required files from the links above before running the noteb
 
 ## Kaggle Notebook
 
-The public Kaggle notebook associated with this project is available here:
-
-- [Kaggle Notebook: notebook-midterm](https://www.kaggle.com/code/chenjunjiejaywang/notebook-midterm)
+The public Kaggle notebook associated with this project is provided by notebook-midterm.ipynb
 
 ## Reproducibility
 
