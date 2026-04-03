@@ -1,49 +1,64 @@
 # Deep Learning Midterm Project
 
-This repository contains the code for my deep learning midterm project.
+This repository contains the code and resources for my Deep Learning midterm project, including both the training workflow and the end-to-end inference pipeline used to generate the final `submission.csv`.
 
-## Files
+## Repository Structure
 
 - `notebook-midterm.ipynb`  
-  End-to-end inference notebook for generating `submission.csv`.
+  End-to-end inference notebook for reproducing the final submission file (`submission.csv`).
 
 - `train&plot.ipynb`  
-  Training notebook, including model training and plotting.
+  Training and plotting notebook for reproducing the model training process and related visualizations.
 
-## Model / Data Access
+## External Files
 
-Because the model/data files are too large to upload directly to GitHub, they are shared through Google Drive:
+Some model and data files are too large to be stored directly in this GitHub repository. They are provided through Google Drive links below.
 
-- Google Drive folder:  
-  [Project Files on Google Drive](https://drive.google.com/drive/folders/1IGBH0VLOBSJkwweHLeGk_NS0ohnATqsw?usp=drive_link)
+### Google Drive Resources
 
-Please download the required files from the Google Drive folder before running the notebooks.
+- **Project folder**  
+  [Google Drive Folder](https://drive.google.com/drive/folders/1IGBH0VLOBSJkwweHLeGk_NS0ohnATqsw?usp=drive_link)
+
+- **Adapter file**  
+  [Adapter Link](https://drive.google.com/file/d/1jjA8fkHpYrtjLiSdzyTG6ncxYfa91Qyk/view?usp=drive_link)
+
+- **Base model file**  
+  [Base Model Link](https://drive.google.com/file/d/1b5FkFIuhBHMqa1f-EqsKsYi6pREV1P2h/view?usp=drive_link)
+
+Please download the required files from the links above before running the notebooks.
 
 ## Kaggle Notebook
 
-The public Kaggle notebook for this project is available here:
+The public Kaggle notebook associated with this project is available here:
 
 - [Kaggle Notebook: notebook-midterm](https://www.kaggle.com/code/chenjunjiejaywang/notebook-midterm)
 
-## How to Use
+## Reproducibility
 
-### 1. Download files from Google Drive
-Download the required model/data files from the shared Google Drive folder.
+This repository is organized to support reproducibility of both training and inference:
 
-### 2. Update local paths in the notebooks
-Before running the notebooks, please update the file paths in:
+- Use `train&plot.ipynb` to reproduce the training procedure and plots.
+- Use `notebook-midterm.ipynb` to reproduce the final inference pipeline and generate `submission.csv`.
+
+## Usage Instructions
+
+### 1. Download external files
+Download the required model/data files from the Google Drive links above.
+
+### 2. Update file paths
+Before running the notebooks, update the file paths in:
 
 - `notebook-midterm.ipynb`
 - `train&plot.ipynb`
 
-Replace the original paths with the locations on your own machine / Google Drive / Kaggle environment.
+The original paths should be replaced with the corresponding locations on your own machine, Google Drive, or Kaggle environment.
 
 ### 3. Run the notebooks
-- Use `train&plot.ipynb` if you want to reproduce the training process.
-- Use `notebook-midterm.ipynb` if you want to reproduce the final inference pipeline and generate `submission.csv`.
+- Run `train&plot.ipynb` for training and plotting.
+- Run `notebook-midterm.ipynb` for end-to-end inference and submission generation.
 
 ## Notes
 
-- `notebook-midterm.ipynb` is intended for final end-to-end submission generation.
-- `train&plot.ipynb` contains the training and visualization workflow.
-- Since external files are stored in Google Drive, path modification is required before execution.
+- `notebook-midterm.ipynb` is intended for final submission reproduction.
+- `train&plot.ipynb` is intended for training reproduction and visualization.
+- Since the external resources are hosted on Google Drive, path modification is required before execution.
