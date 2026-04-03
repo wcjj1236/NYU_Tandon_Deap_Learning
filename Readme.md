@@ -1,43 +1,49 @@
-# NYU Tandon Deep Learning Midterm: Text-to-SVG Generation
+# Deep Learning Midterm Project
 
-This repository contains my code for the NYU Tandon Deep Learning midterm Kaggle competition on text-to-SVG generation.
+This repository contains the code for my deep learning midterm project.
 
-## Repository Contents
+## Files
 
 - `notebook-midterm.ipynb`  
-  Final **offline end-to-end inference notebook**.  
-  This notebook loads the base model and adapter, runs generation on the test set, and writes `submission.csv`.
+  End-to-end inference notebook for generating `submission.csv`.
 
 - `train&plot.ipynb`  
-  Training and analysis notebook.  
-  This notebook contains the model training pipeline, logging, and plotting code used for experiments and report figures.
+  Training notebook, including model training and plotting.
 
-## Public Kaggle Notebook
+## Model / Data Access
 
-The final Kaggle notebook is public here:
+Because the model/data files are too large to upload directly to GitHub, they are shared through Google Drive:
 
-- Kaggle notebook: [notebook-midterm](https://www.kaggle.com/code/chenjunjiejaywang/notebook-midterm)
+- Google Drive folder:  
+  [Project Files on Google Drive](https://drive.google.com/drive/folders/1IGBH0VLOBSJkwweHLeGk_NS0ohnATqsw?usp=drive_link)
 
-## Model Weights
+Please download the required files from the Google Drive folder before running the notebooks.
 
-To make reproduction easier, I provide both the **adapter** and the **base model** through Google Drive.
+## Kaggle Notebook
 
-- Adapter weights: [Google Drive link](https://drive.google.com/file/d/1jjA8fkHpYrtjLiSdzyTG6ncxYfa91Qyk/view?usp=drive_link)
-- Base model: [Google Drive link](https://drive.google.com/file/d/1b5FkFIuhBHMqa1f-EqsKsYi6pREV1P2h/view?usp=drive_link)
+The public Kaggle notebook for this project is available here:
 
-## Recommended Folder Structure
+- [Kaggle Notebook: notebook-midterm](https://www.kaggle.com/code/chenjunjiejaywang/notebook-midterm)
 
-After downloading the data and model files, a convenient local structure is:
+## How to Use
 
-```text
-project_root/
-├── notebook-midterm.ipynb
-├── train&plot.ipynb
-├── data/
-│   ├── train.csv
-│   ├── test.csv
-│   └── sample_submission.csv
-├── weights/
-│   ├── adapter/
-│   └── base_model/
-└── outputs/
+### 1. Download files from Google Drive
+Download the required model/data files from the shared Google Drive folder.
+
+### 2. Update local paths in the notebooks
+Before running the notebooks, please update the file paths in:
+
+- `notebook-midterm.ipynb`
+- `train&plot.ipynb`
+
+Replace the original paths with the locations on your own machine / Google Drive / Kaggle environment.
+
+### 3. Run the notebooks
+- Use `train&plot.ipynb` if you want to reproduce the training process.
+- Use `notebook-midterm.ipynb` if you want to reproduce the final inference pipeline and generate `submission.csv`.
+
+## Notes
+
+- `notebook-midterm.ipynb` is intended for final end-to-end submission generation.
+- `train&plot.ipynb` contains the training and visualization workflow.
+- Since external files are stored in Google Drive, path modification is required before execution.
