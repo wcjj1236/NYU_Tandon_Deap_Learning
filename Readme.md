@@ -27,12 +27,6 @@ Some model and data files are too large to be stored directly in this GitHub rep
 
 Please download the required files from the links above before running the notebooks.
 
-## Kaggle Notebook
-
-The public Kaggle notebook associated with this project is available here:
-
-- [Kaggle Notebook: notebook-midterm](https://www.kaggle.com/code/chenjunjiejaywang/notebook-midterm)
-
 ## Reproducibility
 
 This repository is organized to support reproducibility of both training and inference:
