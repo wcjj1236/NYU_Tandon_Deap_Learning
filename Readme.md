@@ -16,7 +16,7 @@ Some model and data files are too large to be stored directly in this GitHub rep
 
 ### Google Drive Resources
 
-- **Project folder**  
+- **Data folder**  
   [Google Drive Folder](https://drive.google.com/drive/folders/1IGBH0VLOBSJkwweHLeGk_NS0ohnATqsw?usp=drive_link)
 
 - **Adapter file**  
