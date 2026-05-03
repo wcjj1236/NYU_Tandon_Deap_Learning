@@ -29,7 +29,7 @@ Some model and data files are too large to be stored directly in this GitHub rep
 ### Google Drive Resources
 
 - **Fine-tuned LoRA adapter**  
-  [Adapter Link](https://drive.google.com/drive/folders/1H4-c7y5jCctoHMMY255_SHJbw8PGYbD_?usp=drive_link)
+  [Adapter Link](https://drive.google.com/drive/folders/1Abnk0b6u2ilatjwRElWtngFOuoMs_UDo?usp=drive_link)
 
 - **Base model**  
   [Base Model Link](https://drive.google.com/drive/folders/1XffWR46YEyXDwBMMkryVNuMzvmmJ1xAd?usp=drive_link)
